@@ -397,6 +397,44 @@ filter() - create a new array by filtering out elements
 reduce() - reduce the element of an array to single value.
 
 
+function declaration - defines a reusable block of code that perform a specfic task   
+
+function expression - a way to define function as value or varaible 
+
+
+arrow function - a concise way to write a function expression, good for simple function that you use only once 
+
+OOPS Concepts - Object oreinted programming structure 
+
+
+object - collections of related properties and / or methods which will represent real world objects (people, products, places)
+
+object = {
+    key:value,
+          functions()
+}
+
+
+this - refrence to the object where THIS is used 
+(the object depends on the immediate context)
+
+this doesn't work with arrow function 
+
+person.name = this.name;
+
+
+Constructors - special method for defining the comman propertires and methods of obejcts - to intialize the common propertiea and methods.
+
+Class - (ES6 FEATURE) provides a more struture and cleaner way to work with objects comapred to traditional constructor functions.
+
+static, encapsultion, inhertance
+
+
+static - keyword that defines properties or methods that belong to a class itself rather than the objects created from that class (class owns anuthing static, not the objects).
+
+
+
+
 
 
 
