@@ -432,6 +432,24 @@ static, encapsultion, inhertance
 
 static - keyword that defines properties or methods that belong to a class itself rather than the objects created from that class (class owns anuthing static, not the objects).
 
+ - Without creating object we can call the static methods and static variables.
+
+ static - utily or common functionality, that does not depend on indivudual object data, such validation, formating, calculation
+
+ Inheritance - allows a new class to inherit properties and methods from an exiting class (parent -> child)
+
+ help us with code reusability 
+
+ super - keyword  is used to classes to call the constructor or access the properties and methods of the parent (superclass).
+
+ this - this object 
+ super - the parent 
+
+
+
+
+
+
 
 
 

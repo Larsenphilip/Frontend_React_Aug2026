@@ -709,7 +709,6 @@
 
 // hello(wait);
 
-
 // // 5seconds
 // function hello(callback) {
 //     console.log("Hello siva");
@@ -728,8 +727,7 @@
 //   console.log("Good by siva");
 // }
 
-
-// sum(displayWebpage, 4, 2); 
+// sum(displayWebpage, 4, 2);
 
 // function sum(callback, x, y) {
 //     let result = x + y;
@@ -746,12 +744,10 @@
 
 // let numbers = [1, 2, 3, 4, 5, 6];
 
-
 // numbers.forEach(double);
 // numbers.forEach(square);
 // numbers.forEach(display);
 
-                
 // function double(element, index, array) {
 //    array[index] = element * 2;
 // }
@@ -767,7 +763,6 @@
 //                 0        1         2         3
 // let fruits = ["apple", "orange", "banana", "pineapple"];
 
-
 // function upperCase(element, index, array) {
 //    array[index] = element.toUpperCase();
 // }
@@ -775,7 +770,6 @@
 // function capitilize(element, index, array) {
 //     array[index] = element.charAt(0).toUpperCase() + element.slice(1);
 // }
-
 
 // // fruits.forEach(upperCase);
 // fruits.forEach(capitilize);
@@ -795,41 +789,34 @@
 //     return Math.pow(element, 2);
 // }
 
-
 // const students = ["siva", "ganesh", "aslam"];
 
 // const upperResult = students.map(upperCase);
 
 // console.log(upperResult);
 
-
 // function upperCase(students) {
 //     return students.toUpperCase();
 // }
 
-
 // console.log(squares);
-
 
 // const dates = ["2016-1-10", "2025-2-20", "2026-3-30"];
 
 // dates = "2202-4-30";
 // console.log(dates.split("-"));
 
-
 // const formatedDates = dates.map(formatDates);
 
 // console.log(formatedDates);
 
-
 // function formatDates(element) {
 //     const parts = element.split("-");
 //     return `${parts[2]}/${parts[1]}/${parts[0]}`;
-    
+
 // }
 
 // formatDates();
-
 
 // let numbers = [1, 2, 3, 4, 5, 6, 7];
 
@@ -840,7 +827,6 @@
 // function isEven(element) {
 //     return element % 2 === 0;
 // }
-
 
 // const ages = [10, 16, 17, 18, 20, 70, 60];
 
@@ -862,19 +848,16 @@
 //     return element.length <= 6;
 // }
 
-
 // const prices = [200, 10, 80, 1000, 400];
-
 
 // const total = prices.reduce(sum);
 
 // console.log(`the total ₹${total.toFixed(2)}`);
 
-// //             1690        
+// //             1690
 // function sum(previous, element) {
 //     return previous + element;
 // }
-
 
 // const grades = [75, 50, 90, 60, 65, 95];
 
@@ -886,7 +869,7 @@
 //     return Math.max(accum, element);
 // }
 
-// function declaration 
+// function declaration
 
 // function hello() // signature part
 // {
@@ -918,7 +901,6 @@
 // console.log(squares);
 // console.log(evenNums);
 
-
 // const total = numbers.reduce(function(accum, element) {
 //     return accum + element;
 // });
@@ -934,7 +916,6 @@
 
 // hello();
 
-
 // const hello = function() {
 // console.log("hello siva");
 // }
@@ -942,7 +923,6 @@
 // const hello = (name) => { console.log(`hello ${name}`)
 //                         console.log(`you are ${22} years old`)};
 // hello("siva", 22);
-
 
 // setTimeout(function(){
 //      console.log("hello");
@@ -952,9 +932,7 @@
 //     console.log("hello");
 // }
 
-
 // setTimeout(() => console.log("hello"), 3000);
-
 
 // const numbers =  [1, 2, 3, 4, 5, 6, 7];
 
@@ -967,8 +945,6 @@
 // console.log(squares);
 // console.log(evenNums);
 // console.log(total);
-
-
 
 // const person1 = {
 //     firstName: "siva",
@@ -992,8 +968,6 @@
 
 // }
 
-
-
 // person1.sayHello();
 // person1.eat();
 
@@ -1010,7 +984,6 @@
 // console.log(person2.lastName);
 // console.log(person2.age);
 // console.log(person2.isEmpolyed);
-
 
 // const person1 = {
 //     name: "siva",
@@ -1031,7 +1004,6 @@
 // person1.eat();
 // person2.sayHello();
 // person2.eat();
-
 
 // function Bike(make, model, year, color) {
 //    this.make = make;
@@ -1056,7 +1028,6 @@
 // console.log(bike2.year);
 // console.log(bike2.color);
 
-
 // console.log(bike3.make);
 // console.log(bike3.model);
 // console.log(bike3.year);
@@ -1065,8 +1036,6 @@
 // bike1.drive();
 // bike2.drive();
 // bike3.drive();
-
-
 
 // class Product {
 
@@ -1087,7 +1056,7 @@
 // }
 
 // const salesTax = 0.05;
-// // object creation or instance creation 
+// // object creation or instance creation
 // const product1 = new Product("mouse", 300);
 // const product2 = new Product("keyborad", 200.12);
 // const product3 = new Product("earphones", 320);
@@ -1104,23 +1073,149 @@
 // console.log(`total prie with tax is ₹${total2.toFixed(2)}`);
 // console.log(`total prie with tax is ₹${total3.toFixed(2)}`);
 
+// class MathUtil {
+//     static PI = 3.14159;
 
-class MathUtil {
-    static PI = 3.14159;
+//     static getDiameter(radius) {
+//         return radius * 2;
+//     }
 
-    static getDiameter(radius) {
-        return radius * 2;
-    }
+//     static getCircumference(radius) {
+//         return 2 * this.MathUtil.PI * radius;
+//     }
 
-    static getCircumference(radius) {
-        return 2 * this.MathUtil.PI * radius;
-    }
+// }
 
-    
+// console.log(MathUtil.PI);
+// console.log(MathUtil.getDiameter(10));
+// console.log(MathUtil.getCircumference(20));
 
+// class User {
+
+//   static userCount = 0;
+
+//   constructor(username) {
+//      this.username = username;
+//      User.userCount++;
+//   }
+
+//   sayHello() {
+//     console.log(`Hello my username is ${this.username}`);
+//   }
+
+//   static getUserCount() {
+//     console.log(`There are ${User.userCount} users online`);
+//   }
+
+// }
+
+// const user1 = new User("Siva kumar");
+// const user2 = new User("Selva kumar");
+// const user3 = new User("ganesh");
+
+// user1.sayHello();
+// user2.sayHello();
+// user3.sayHello();
+// console.log(user1.username);
+// console.log(User.userCount);
+// User.getUserCount();
+
+// static calDicount() {
+
+// }
+
+// satic isValdiAccountNumber() {
+
+// class Animal {
+
+//   alive = true;
+
+//   eat() {
+//     console.log(`This ${this.name} is eating`);
+//   }
+
+//   sleep() {
+//     console.log(`This ${this.name} is sleeping`);
+//   }
+// }
+
+// class Rabbit extends Animal {
+//     name = "Indian Rabbit";
+//     run() {
+//         console.log(`This ${this.name} is running`);
+//     }
+// }
+
+// class Fish extends Animal {
+//    name = "Indian Shark";
+//     swim() {
+//         console.log(`This ${this.name} is swiming`);
+//     }
+// }
+
+// class Eagle extends Animal {
+//    name = "Eagle";
+//     fly() {
+//         console.log(`This ${this.name} is flying`);
+//     }
+// }
+
+// const rabbit = new Rabbit();
+// const fish = new Fish();
+// const eagle = new Eagle();
+
+// console.log(rabbit.alive);
+// rabbit.eat();
+// rabbit.sleep();
+// rabbit.run();
+
+// console.log(fish.alive);
+// fish.eat();
+// fish.sleep();
+// fish.swim();
+
+// console.log(eagle.alive);
+// eagle.eat();
+// eagle.sleep();
+// eagle.fly();
+
+class Animal {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
 }
 
+class Rabbit extends Animal {
+  constructor(name, age, runSpeed) {
+    super(name, age); // parent constructor
+    this.runSpeed = runSpeed;
+  }
+}
 
-console.log(MathUtil.PI);
-console.log(MathUtil.getDiameter(10));
-console.log(MathUtil.getCircumference(20));
+class Fish extends Animal {
+  constructor(name, age, swimSpeed) {
+    super(name, age); // parent constructor
+    this.swimSpeed = swimSpeed;
+  }
+}
+
+class Eagle extends Animal {
+  constructor(name, age, flySpeed) {
+    super(name, age); // parent constructor
+    this.flySpeed = flySpeed;
+  }
+}
+
+const rabbit = new Rabbit("rabbit", 2, 25);
+const fish = new Fish("fish", 1, 10);
+const eagle = new Eagle("indian eagle", 3, 50);
+
+
+console.log(rabbit.name);
+console.log(rabbit.age);
+console.log(`the rabbit is runing at ${rabbit.runSpeed} kmp`);
+
+
+
+
